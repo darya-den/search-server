@@ -1,0 +1,436 @@
+Шаблон:сущ ru n a (п 1a)
+Шаблон:сущ ru f ina 3*e
+Шаблон:сущ ru m ina 1e // 1c(1)
+Шаблон:сущ ru m ina 3*b(2)
+Шаблон:сущ ru n ina 1*c^
+Шаблон:сущ ru m ina 6c(1)
+Шаблон:сущ ru m a 3b
+Шаблон:сущ ru f ina 1b?
+Шаблон:сущ ru m a 1a((2))
+Шаблон:сущ ru m ina (с3a(1))
+Шаблон:сущ ru n ina 5a
+Шаблон:сущ ru m ina (с3*a(1))
+Шаблон:сущ ru m a 2a^
+Шаблон:сущ ru_пол1
+Шаблон:сущ ru n ina 4f(1)
+Шаблон:сущ ru f ina 8*e^
+Шаблон:сущ ru m a 1c(1)
+Шаблон:сущ ru n ina (1a)
+Шаблон:сущ ru f a 2*a(2)
+Шаблон:сущ ru m a 1°c(1)
+Шаблон:сущ ru m ina 8b
+Шаблон:сущ ru f ina 8a-ш
+Шаблон:сущ ru m a 2*a
+Шаблон:сущ ru f ina 2a(2)
+Шаблон:сущ ru f ina 8e-ш
+Шаблон:сущ ru n ina 3*a(1)
+Шаблон:сущ ru n ina 6*d(2)
+Шаблон:сущ ru m ina 3a
+Шаблон:сущ ru m ina 3*b(1)
+Шаблон:Фам ru прил 4a
+Шаблон:сущ ru n ina 3c
+Шаблон:сущ ru f ina 7a
+Шаблон:сущ ru f a 0
+Шаблон:сущ ru n ina 1a^-и
+Шаблон:сущ ru f ina 2a
+Шаблон:сущ ru f ina 8a^
+Шаблон:сущ ru m a 2c(1)
+Шаблон:Фам ru ло
+Шаблон:сущ ru m a 1*b
+Шаблон:сущ ru n ina (п 1b-)
+Шаблон:сущ ru m a (п 4a)
+Шаблон:сущ ru n ina 5*a((2))
+Шаблон:сущ ru n ina 1a^-р
+Шаблон:сущ ru n ina 5*f
+Шаблон:сущ ru f ina 2b
+Шаблон:сущ ru n a 7a
+Шаблон:сущ ru m ina 2*e
+Шаблон:Фам ин ов
+Шаблон:сущ ru f a 2b
+Шаблон:сущ ru m ina (п 1a)
+Шаблон:сущ ru n ina (п 3b)
+Шаблон:сущ ru f ina (1a)
+Шаблон:сущ ru m a 1b^
+Шаблон:сущ ru m ina (f 3a)
+Шаблон:сущ ru f ina 8f"
+Шаблон:Фам неизм
+Шаблон:сущ ru n ina 1*b^
+Шаблон:сущ ru m a 3°a"
+Шаблон:сущ ru m a 6*b
+Шаблон:сущ ru m a 1a^
+Шаблон:сущ ru m a 3°a^
+Шаблон:сущ ru n ina 2c
+Шаблон:сущ ru n ina 7b(2)
+Шаблон:сущ ru m a 2e
+Шаблон:сущ ru m a 1a(2)
+Шаблон:сущ ru m ina 1*b
+Шаблон:сущ ru f ina 1b
+Шаблон:сущ ru f ina 1f'
+Шаблон:сущ ru пол2
+Шаблон:сущ ru m a 2c^
+Шаблон:сущ ru f ina 4a(2)
+Шаблон:сущ ru  m ina 6a
+Шаблон:сущ ru n ina 1c^-но
+Шаблон:сущ ru f ina 2f(2)
+Шаблон:сущ ru f ina 2*a
+Шаблон:сущ ru n a
+Шаблон:сущ ru m ina 1a^
+Шаблон:сущ ru f ina 1*b^
+Шаблон:сущ ru m ina 7a(3)
+Шаблон:сущ ru n ina 6*b
+Шаблон:сущ ru n a 4a
+Шаблон:Фам иностр-м
+Шаблон:сущ ru n ina 3e^
+Шаблон:сущ ru m ina 6*b
+Шаблон:сущ ru n a (п 3a)
+Шаблон:сущ ru m ina 6c
+Шаблон:сущ ru n ina 2a
+Шаблон:сущ ru n ina 3a(1)
+Шаблон:сущ ru f ina 2d
+Шаблон:сущ ru m ina 0
+Шаблон:Фам ru f 1a
+Шаблон:сущ ru m ina (с4а(1))
+Шаблон:сущ ru f a (п 2а)
+Шаблон:сущ ru n ina 1a^
+Шаблон:сущ ru m a 1°a^-а
+Шаблон:сущ ru n ina 3*a(1)(2)
+Шаблон:сущ ru m a 1*a
+Шаблон:сущ ru f ina 1d
+Шаблон:сущ ru f ina 6b
+Шаблон:сущ ru m a 3*a
+Шаблон:сущ ru f a 1b?
+Шаблон:сущ ru f ina 8e^
+Шаблон:сущ ru m a 1a(2)^
+Шаблон:сущ ru f ina 3b
+Шаблон:сущ ru m a (с4а(1))
+Шаблон:сущ ru n ina 1*b
+Шаблон:сущ ru m ina 5*a
+Шаблон:сущ ru m ina  2a
+Шаблон:сущ ru f ina 2*e^
+Шаблон:сущ ru m ina 3*bX
+Шаблон:сущ ru n ina 5*b(2)
+Шаблон:сущ ru f a 2*b
+Шаблон:сущ ru f a 1b
+Шаблон:сущ ru m ina 2b(1)
+Шаблон:сущ ru n ina (п 4a)
+Шаблон:сущ ru n a (п 4a-ся)
+Шаблон:сущ ru m a 3a
+Шаблон:Фам ин
+Шаблон:сущ ru m a (с3a(1))
+Шаблон:сущ ru f a 8e^'
+Шаблон:сущ ru f ina 6*b^
+Шаблон:сущ ru f a 1a
+Шаблон:Фам ru ин-1b
+Шаблон:сущ ru f a 5a
+Шаблон:сущ ru m a 1c^
+Шаблон:сущ ru m a (п 3a)
+Шаблон:сущ ru n a 5*a
+Шаблон:сущ ru f ina 3a
+Шаблон:сущ ru n ina 3c(2)
+Шаблон:сущ ru m ina 1a((2))
+Шаблон:сущ ru f a 6a
+Шаблон:сущ ru n ina 1a((1))
+Шаблон:сущ ru-old f ina 1d
+Шаблон:Фам ru прил 3b
+Шаблон:Фам ru m 4*b
+Шаблон:сущ ru f a 1*b
+Шаблон:сущ ru n ina (с6*a(2))
+Шаблон:сущ ru m ina 3*a((2))
+Шаблон:Фам ru m 3a
+Шаблон:сущ ru m ina 4b
+Шаблон:сущ ru f a 2a(2)
+Шаблон:сущ ru m a 2b
+Шаблон:сущ ru m a 3°a
+Шаблон:сущ ru m a 7b^
+Шаблон:Фам ru 0
+Шаблон:сущ ru f ina 3f'
+Шаблон:сущ ru n a 6*b
+Шаблон:сущ ru f a
+Шаблон:сущ ru m ina 3c(1)
+Шаблон:сущ ru m ina 2*b
+Шаблон:сущ ru m ina 6*a
+Шаблон:сущ ru f ina 1*f
+Шаблон:сущ ru f ina  8a
+Шаблон:сущ ru n ina 6*d
+Шаблон:сущ ru f ina  1a
+Шаблон:сущ ru n ina 3*c(2)
+Шаблон:сущ ru m ina 1c(1) // 1a
+Шаблон:сущ ru f a 8a
+Шаблон:сущ ru n a 5d
+Шаблон:сущ ru n ina 8°c
+Шаблон:сущ ru m ina 4c
+Шаблон:сущ ru m a 3c^
+Шаблон:сущ ru n ina 1*d
+Шаблон:сущ ru n ina 5*b
+Шаблон:Фам ru иностр-м
+Шаблон:сущ ru n a (п 4a)
+Шаблон:сущ ru f a 3*a
+Шаблон:сущ ru f ina 1e
+Шаблон:сущ ru f a 8e
+Шаблон:сущ ru f ina 2*a-ня(2)
+Шаблон:сущ ru f ina 2*a(2)
+Шаблон:сущ ru n a 1b(1)(2)
+Шаблон:сущ ru n ina 3d(1)
+Шаблон:сущ ru n ina (п 3a)
+Шаблон:сущ ru m a 3*b
+Шаблон:сущ ru m a (п 1b)
+Шаблон:сущ ru f ina 2*d'
+Шаблон:сущ ru f ina 3d
+Шаблон:сущ ru пол1
+Шаблон:сущ ru f ina 3*d^
+Шаблон:сущ ru f ina 8f"-ш
+Шаблон:сущ ru n ina 1c^
+Шаблон:сущ ru m ina 3°a'
+Шаблон:сущ ru n ina (п 1a)
+Шаблон:сущ ru m ina 2f
+Шаблон:сущ ru n ina 8°c^
+Шаблон:сущ ru f ina 5a
+Шаблон:сущ ru f ina 2*b
+Шаблон:сущ ru m a (n 3*a(1))
+Шаблон:сущ ru m a 1e
+Шаблон:сущ ru f ina 1*b
+Шаблон:сущ ru f ina 7b^
+Шаблон:сущ ru n ina 1b
+Шаблон:сущ ru m a 1a
+Шаблон:сущ ru m ina 2c(1)
+Шаблон:сущ ru f ina 1f
+Шаблон:сущ ru n ina  6*a
+Шаблон:сущ ru n ina
+Шаблон:сущ ru n a 3*a(1)
+Шаблон:сущ ru n ina 4a^
+Шаблон:Фам ru прил 3a
+Шаблон:сущ ru n a 5a
+Шаблон:сущ ru n ina 5b
+Шаблон:сущ ru n ina 5*a(2)
+Шаблон:сущ ru m ina (n 4a(1))
+Шаблон:сущ ru f a (п 4a)
+Шаблон:сущ ru n a 1*d^
+Шаблон:сущ ru n ina 3a(1)(2)
+Шаблон:сущ ru f a 5b
+Шаблон:сущ ru n ina (п 1a-)
+Шаблон:сущ ru n ina 6*a((2))
+Шаблон:сущ ru m ina 1b
+Шаблон:Фам ru неизм
+Шаблон:сущ ru m a 3°a'
+Шаблон:сущ ru f a 6a÷
+Шаблон:сущ ru m a 2*e
+Шаблон:сущ ru f ina (п 1a)
+Шаблон:сущ ru n a 2b
+Шаблон:сущ ru m a 4a
+Шаблон:сущ ru f a 8*b'-ш
+Шаблон:сущ ru m ina (n 4a((1)))
+Шаблон:сущ ru f a (п 1b)
+Шаблон:сущ ru m a (n a 3*b(1)(2))
+Шаблон:сущ ru f ina 4b
+Шаблон:сущ ru m a 5*a
+Шаблон:сущ ru m a 2a
+Шаблон:сущ ru m ina 1c
+Шаблон:Фам ru прил 1a
+Шаблон: сущ ru f ina 1a
+Шаблон:сущ ru m ina 1°a^-и
+Шаблон:сущ ru m a 4c^
+Шаблон:сущ ru m ina 3c
+Шаблон:сущ ru m a 2f
+Шаблон:сущ ru m ina 1e(2)
+Шаблон:сущ ru m ina 3b(1)
+Шаблон:сущ ru m ina 3*b
+Шаблон:сущ ru m a 5b
+Шаблон:сущ ru m a-люди
+Шаблон:сущ ru f a 5a^
+Шаблон:сущ ru f a 6d
+Шаблон:сущ ru m ina 1a(2)
+Шаблон:сущ ru m ina 4a
+Шаблон:сущ ru f ina (п 2a)
+Шаблон:сущ ru f a 1*d
+Шаблон:сущ ru f ina (мс 6*b)
+Шаблон:сущ ru n ina 5*d^
+Шаблон:сущ ru f ina 1b÷
+Шаблон:сущ ru f ina
+Шаблон:сущ ru n ina (п 1b)
+Шаблон:сущ ru f ina 6*b
+Шаблон:сущ ru n ina 5d
+Шаблон:сущ ru 2
+Шаблон:Фам ru ин
+Шаблон:сущ ru f a 4a(2)
+Шаблон:сущ ru f a 5*d^
+Шаблон:сущ ru f ina 8e
+Шаблон:сущ ru m ina 6a
+Шаблон:сущ ru f ina 4d'
+Шаблон:сущ ru m ina 3*a
+Шаблон:сущ ru n ina 1d^
+Шаблон:сущ ru
+Шаблон:сущ ru f ina 1*a
+Шаблон:сущ ru m ina 3e
+Шаблон:сущ ru n ina 6*b?
+Шаблон:Фам ru m 1a
+Шаблон:сущ ru m ina 2e
+Шаблон:сущ ru m a 3*a(2)
+Шаблон:сущ ru m a 3°b
+Шаблон:сущ ru m a 6c
+Шаблон:сущ ru m a 3°a^'
+Шаблон:сущ ru f a 7b
+Шаблон:сущ ru n ina 7a
+Шаблон:сущ ru m ina 3*d(2)
+Шаблон:сущ ru m ina 2b
+Шаблон:сущ ru f ina 4f
+Шаблон:сущ ru f a 6*b
+Шаблон:сущ ru n ina 6*d^
+Шаблон:сущ ru f ina 1a
+Шаблон:Фам ко
+Шаблон:сущ ru f a 8e-ш
+Шаблон:сущ ru f ina (п 4a)
+Шаблон:сущ ru n ina 3aX
+Шаблон:сущ ru f a 3b
+Шаблон:сущ ru m ina 1a
+Шаблон:сущ ru m a 1c
+Шаблон:сущ ru n a 1b
+Шаблон:Фам ru m 6a
+Шаблон:сущ ru n ina (5?)
+Шаблон:сущ ru m a 3e
+Шаблон:сущ ru n a (ж2a)
+Шаблон:сущ ru n ina 1d
+Шаблон: сущ ru m ina 3b
+Шаблон:сущ ru f a 6*a
+Шаблон:сущ ru f ina 3d'
+Шаблон:сущ ru m ina 7c(3)
+Шаблон:сущ ru f a 6*d^
+Шаблон:сущ-ru
+Шаблон:сущ ru f ina 1a^
+Шаблон:сущ ru m ina 1c(1)(2)
+Шаблон:сущ ru n a 0
+Шаблон:сущ ru f a 8e^
+Шаблон:сущ ru m ina 3°a
+Шаблон:сущ ru m ina 1c(2)
+Шаблон:сущ ru n a 6*a(2)-m
+Шаблон:Фам гриб
+Шаблон:сущ ru f ina (3a)
+Шаблон:сущ ru f ina 2*a^
+Шаблон:сущ ru f a 4a
+Шаблон:сущ ru f a 6a^
+Шаблон:сущ ru f ina 0
+Шаблон:сущ ru f a 1f
+Шаблон:сущ ru m ina 2*a
+Шаблон:сущ ru f ina 4a
+Шаблон:Фам-ин-1b
+Шаблон:сущ ru m ina 5b
+Шаблон:сущ ru m ina 7a
+Шаблон:сущ ru m ina 2a
+Шаблон:сущ ru f ina (3*a)
+Шаблон:сущ ru f a 2*a
+Шаблон:сущ ru  m ina 1a
+Шаблон:сущ ru f a 1d
+Шаблон:сущ ru f ina 5*a
+Шаблон:Фам ru m 4a
+Шаблон:сущ ru m a 1a
+Шаблон:сущ ru f a 1*a
+Шаблон:сущ ru f ina 1d'
+Шаблон:сущ ru n ina 7b-^
+Шаблон:сущ ru f ina 1*d
+Шаблон:сущ ru m a 5*b
+Шаблон:сущ ru m a-человек
+Шаблон:сущ ru m ina
+Шаблон:Фам дзе
+Шаблон:сущ ru f a 3b?
+Шаблон:сущ ru n ina 3a
+Шаблон:сущ ru m ina 1b(1)
+Шаблон:сущ ru f ina 8*b'
+Шаблон:сущ ru m a 7a
+Шаблон:Фам ru ин ов
+Шаблон:сущ ru f ina 8*b'ш
+Шаблон:сущ ru n ina 1*d^
+Шаблон:сущ ru n a
+Шаблон:сущ ru f a 4b
+Шаблон:сущ ru f ina 6a^
+Шаблон:сущ ru f a 2*a^
+Шаблон:сущ ru m ina 6b
+Шаблон:сущ ru+
+Шаблон:сущ ru f a 4b^
+Шаблон:сущ ru f ina 6*d^
+Шаблон:сущ ru m a (п 1a)
+Шаблон:сущ ru m ina 2c
+Шаблон:сущ ru f ina 7b
+Шаблон:сущ ru m ina (п 1b)
+Шаблон:сущ ru m ina (мс 1a)
+Шаблон:Фам ru m 2a
+Шаблон:сущ ru f a (п 3a)
+Шаблон:сущ ru m a 6b
+Шаблон:сущ ru m a 2*b
+Шаблон:сущ ru n ina 5*d
+Шаблон:сущ ru f ina 3b?
+Шаблон:сущ ru m a 1°a^
+Шаблон:сущ ru f ina 3b÷
+Шаблон:сущ ru m ina 2a
+Шаблон:сущ ru f a 3*b
+Шаблон:сущ ru f ina (1a^)
+Шаблон:сущ ru f ina 3*b
+Шаблон:сущ ru n ina 6*a
+Шаблон:сущ ru f ina 3*a
+Шаблон:сущ ru f ina 6a
+Шаблон:сущ ru m a
+Шаблон:сущ ru m a 1°a
+Шаблон:сущ ru m a 1a^-ь
+Шаблон:сущ ru f ina 6d
+Шаблон:сущ ru-old m ina 3b
+Шаблон:сущ ru n ina 3b
+Шаблон:Фам ru прил 1b
+Шаблон:сущ ru n ina 6*a(2)
+Шаблон:сущ ru m ina 3b
+Шаблон:сущ ru f ina 2*a-ня
+Шаблон:сущ ru m ina (n 3*a(1))
+Шаблон:сущ ru m ina 1d^
+Шаблон:Фам ru
+Шаблон:сущ ru n a (1a)
+Шаблон:сущ ru m ina 4e
+Шаблон:сущ ru m ina 5a(2)
+Шаблон:сущ ru n ina 5*a
+Шаблон:сущ ru n ina 1a
+Шаблон:сущ ru m ina 3*a(2)
+Шаблон:сущ ru f ina 4d
+Шаблон:сущ ru m a 6a
+Шаблон:inflection сущ ru 2
+Шаблон:сущ ru f a 3a
+Шаблон:сущ ru n ina 0
+Шаблон:сущ ru ina pt 0
+Шаблон:сущ ru f a 7a
+Шаблон:сущ ru n ina 7b^
+Шаблон:сущ ru m a 1b
+Шаблон:сущ ru f ina 8a
+Шаблон:сущ ru f ina 2*d
+Шаблон:сущ ru m a 4b
+Шаблон:сущ ru m ina 3d^
+Шаблон:сущ ru f a 6b
+Шаблон:сущ ru n ina 4a
+Шаблон:сущ ru n ina 8°a
+Шаблон:сущ ru n ina 1c
+Шаблон:сущ ru n a 1a
+Шаблон:сущ ru f ina 5*b
+Шаблон:сущ ru m ina (п 3a)
+Шаблон:сущ ru m ina 1*a
+Шаблон:сущ ru m ina 5a
+Шаблон:сущ ru f ina 5b
+Шаблон:сущ ru n ina 1b^
+Шаблон:сущ ru m ina 5*b
+Шаблон:сущ ru f ina 3*f
+Шаблон:сущ ru m a 1e^
+Шаблон:сущ ru m a 3*c
+Шаблон:сущ ru m ina 1c(1)^
+Шаблон:сущ ru m a 5a
+Шаблон:сущ ru f ina 2e
+Шаблон:сущ ru n ina 1*a
+Шаблон:сущ ru m a 0
+Шаблон:сущ ru m ina 1e
+Шаблон:сущ ru n ina 7a
+Шаблон:сущ ru f a 2a
+Шаблон:сущ ru f a (п 1a)
+Шаблон:сущ ru f a 3d
+Шаблон:сущ ru f ina 6*a
+Шаблон:сущ ru f ina 3*f'
+Шаблон:сущ ru n ina 5*c
+Шаблон:сущ ru f ina (п 3b)
+Шаблон:сущ ru m a 4c(1)
+Шаблон:сущ ru f ina (п 1b)
+Шаблон:сущ ru m a (мс 1a)
+Шаблон:сущ ru m ina 1c(1)
+Шаблон:сущ ru m a 7a(3)
+Шаблон:сущ ru f ina (п 3a)
+Шаблон:сущ ru n ina 3*b(1)(2)

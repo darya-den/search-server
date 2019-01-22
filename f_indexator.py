@@ -1,6 +1,7 @@
 """Module defining classes Position and Indexator"""
 
 from tokenizer_gen import Token, Tokenizer
+from morphan import Stemmer_agent
 import shelve
 import functools
 
@@ -81,6 +82,28 @@ class Indexator(object):
     indexate -- return a dictionary of Tokens and Position objects from a string
     lfile_indexate -- return a dictionary of Tokens and a dictionary of files and Position_d objects
     """
+
+    def stem_indexate(self, name, s):
+        """Indexate file and create a database.
+
+        :return: database containing a dictionary of lemmas/stems
+        and a dictionary of filenames where
+        the lemma/stem were found and a list of Positions_d objects
+        :param name: name of a file of a shelve database
+               s: path of a indexated file
+        """
+        t = Tokenizer()
+        stemmer = Stemmer_agent()
+        db = shelve.open(name, 'c', writeback=True)
+        with open(s, 'r', encoding='utf-8') as f:
+            for i, line in enumerate(f):
+                for it in t.i_tokenize(line):
+                    if it.typ == "alph" or it.typ == "digit":
+                        # get the stem or lemma of the token
+                        for st in stemmer.stem(it.tok):
+                            x = db.setdefault(st, {})
+                            x.setdefault(s, []).append(Position_d(it.f_ch, it.l_ch, i))
+        db.close()
 
     def db_file_indexate(self, name, s):
         """Indexate file and create a database.

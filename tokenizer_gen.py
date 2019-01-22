@@ -1,4 +1,4 @@
-""" Module contains classes Token and Tokenizer."""
+""" Module defines classes Token and Tokenizer."""
 
 
 import unicodedata
@@ -22,9 +22,9 @@ class Token(object):
 
 class Tokenizer(object):
     """
-    Class of Tokenizers.
+    Class of tokenizers.
 
-    Method "tokenize" creates a list of Tokens from a string,
+    Method "tokenize" creates a list of token instances from a string,
     that is a substring of consecutive alphabetical symbols
     """
     def check_typ(self, s):
@@ -43,11 +43,8 @@ class Tokenizer(object):
 
     def alph_tokenize(self, s):
         """
-        Take a string and generate alphabetical and digital Tokens.
+        Take a string and generate alphabetical and diigital Tokens.
 
-        :raises TypeError: when s is not a string object
-        :yield: Tokens
-        :param s: string
         """
         self.s = s
         if not isinstance(s, str):
@@ -84,9 +81,8 @@ class Tokenizer(object):
         If there's a change in the type create a Token instance.
         Yield a Token.
 
-        :raises TypeError: when s is not a string object
-        :yield: Tokens
-        :param s: string
+        Raises:
+        TypeError -- when s is not a string object
         """
         self.s = s
         if not isinstance(s, str):
@@ -119,11 +115,7 @@ class Tokenizer(object):
         Check the type of the current and previous symbol.
         If there's a change in the type create a Token instance.
         Add Token to the list.
-        At the end of the string create the last Token.
-
-        :raises TypeError: when s is not a string object
-        :retusrn: a list of Tokens
-        :param s: string
+        At the end of the string create the last Token. 
         """
         self.s = s
         if not isinstance(s, str):
@@ -150,3 +142,7 @@ class Tokenizer(object):
             tl.append(tok)
         return(tl)
 
+if __name__ == '__main__':
+    t = Tokenizer()
+    for i in t.alph_tokenize('b'):
+        print(i)

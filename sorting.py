@@ -30,3 +30,7 @@ def our_sort(mass):
             if first_el == []:
                 break
 
+if __name__ == '__main__':
+    mass = [[1, 4, 7, 9], [2, 3, 4, 5, 6], [8, 10, 16, 24]]
+    for n in our_sort(mass):
+        print(n)

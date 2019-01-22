@@ -7,10 +7,10 @@ finding their context windows.
 
 from tokenizer_gen import Tokenizer
 from f_indexator import Position_d
+from morphan import Stemmer_agent
 import shelve
 import re
 from sorting import our_sort
-from morphan import Stemmer_agent
 
 
 class ContextWindow(object):
@@ -84,12 +84,16 @@ class SearchEngine(object):
     """Class that performs search in a database.
 
     Methods:
-    ultimate_out -- return sentenses or context window of positions in files
-    combine_cw -- combine overlapping context windows 
-    get_context_w -- return n adjasent words to the left and right of the position in file
+    ultimate_out -- return generator of extended ContextWindows for each file
+    gen_extended -- generate extended ContextWindow
+    gen_bold -- generate ContextWindows with bold tags
+    combine_cw -- return generator of combined ContextWindows for each file
+    gen_combined -- generate combined ContextWindows
+    get_context_w -- return generator of ContextWindows for each file
+    gen_context_w -- generate ContextWindows
     get_word -- return word from a position in file
-    search -- return a dictionary of files and positions of a word
-    search_mult -- return a dictionary of files and positions of an each word in the query
+    search -- return generator of Position_d objects for query in database 
+    search_mult -- return generator of Position_d objects for each word in query in database
     """
     def __init__(self, db):
         self.db = shelve.open(db)
@@ -98,16 +102,19 @@ class SearchEngine(object):
         self.db.close()
 
     def ultimate_out(self, files, mass):
-        """Extend CWs where necessary and put in bold center words.
+        """Extend CWs where necessary and put center words in bold.
 
-        :return: dictionary of filenames and extended CWs
-        :param files: dictionary of filenames and CWs
+        :return: dictionary of filenames and generator of ContextWindows
+        :param files: dictionary of filenames and generator of ContextWindows
+               mass: list of (offset, limit) pairs for citations. Offset is the index
+                     of the first citation (starting at 1), limit is a number of citations
         """
         self.files = files  # dictionary file:list of context windows
         #print(files)
         for f in files:
             cws = files[f]
             files[f] = self.gen_extended(cws)
+        print(files)
         for f in files:
             cws = list(files[f])
             files[f] = self.gen_combined_cw(cws)
@@ -116,17 +123,28 @@ class SearchEngine(object):
         for m, f in enumerate(sorted(files)):
             cws = list(files[f])
             #print(m, cws)
-            files[f] = self.gen_bold(mass[m], cws, mass)
+            files[f] = self.gen_bold(mass[m], cws)
         return files
 
     def gen_extended(self, cws):
+        """Extend ContextWindows to sentences.
+
+        :yield: extended ContextWindow line
+        :param cws: generator of ContextWindows"""
         for i in cws:
             new = i.extend_cw(i.line)
             i.left = new[0]
             i.right = new[-1]+1
             yield i
 
-    def gen_bold(self, m, cws, mass):
+    def gen_bold(self, m, cws):
+        """Yield line with word in bold tags.
+
+        Put every ContextWindow center in bold tags.
+
+        :yield: ContextWindow line with bold tags
+        :param m: (offset, limit) pair for this filename
+               cws: generator of ContextWindows"""
         for n, i in enumerate(cws):
             if n >= m[0] and n < (m[0] + m[1]):
                 yield i.get_bold(i.line)[i.left:i.right+7*len(i.pos)]
@@ -134,11 +152,8 @@ class SearchEngine(object):
     def combine_cw(self, files):        
         """Combine overlapping context window.
 
-        Overlapping context windows are two adjecent windows
-        where the left border of one is between the left and right borders of another.
-
-        :return: dictionary of filenames and combined (if necessary) context windows
-        :param files: dictionary of files and context windows
+        :return: dictionary of filenames and a generator of ContextWindows
+        :param files: dictionary of files and a generator of ContextWindows
         """
         self.files = files  # dictionary of files and context windows
         for f in files:
@@ -147,8 +162,17 @@ class SearchEngine(object):
         return files
                 
     def gen_combined_cw(self, cws):
+        """Generate combined ContextWindows.
+
+        Combine two adjacent ContextWindows
+        where the left border of one is between the left and right borders of another.
+
+        :return: dictionary of filenames and a generator of ContextWindows
+        :param files: dictionary of files and a generator of ContextWindows
+        """
         for i, cont in enumerate(cws):
                 try:
+                    # if overlap
                     if cont.line == cws[i+1].line and cws[i+1].left <= cont.right:
                         for npos in cws[i+1].pos:
                             cont.pos.append(npos)
@@ -164,13 +188,10 @@ class SearchEngine(object):
     def get_context_w(self, files, ext):
         """Get context widwow for each file and each position in file.
 
-        Open file and iterate its lines.
-        Iterate list of positions
-        When the number of line is equal to the position's number of line, create ContextWindow object.
 
-        :return: dictionary of filenames and ContextWindow object for each position in that file
-        :param files: dictioanry of filenames and Positions_d in those files
-               ext: the width of the context window
+        :return: dictionary of filenames and ContextWindow generator
+        :param files: dictionary of filenames and Positions_d generators
+               ext: the width of ContextWindow
         """
         self.files = files  # dictionary of files and positions
         self.ext = ext
@@ -181,6 +202,17 @@ class SearchEngine(object):
         return res
 
     def gen_context_w(self, f, positions, ext):
+        """Generate context windows
+
+        Open file and iterate its lines.
+        Iterate list of positions
+        When the number of line is equal to the position's number of line, yield ContextWindow object.
+
+        :yield ContextWindow
+        :param f: filename
+               positions: Position_d generator
+               ext: width of ContextWindow
+        """
         with open(f, 'r', encoding="utf-8") as file:
             it1 = enumerate(file)  # file iterator
             it2 = iter(positions)  # positions iterator
@@ -219,60 +251,10 @@ class SearchEngine(object):
                 if i == pos.line:
                     return line[pos.start:pos.end+1]
                      
-    def search(self, word, limit, offset):
+    def search_stem(self, word, limit, offset):
         """One word search.
 
         :return: list of positions of the word in the database
-        :param db: database containing file(s)
-               word: input query word
-        """
-        self.word = word
-        res = {}
-        output = {}
-        dic = self.db 
-        res = dic.get(word, default=[])
-        keys = sorted(list(res.keys()))
-        for num, k in enumerate(keys):
-            if num >= offset and num < (offset + limit):
-                for el in output:
-                    our_sort(output[el])
-        return output
-
-    def search_mult(self, query, limit, offset):
-        """Multiword search.
-
-        :return: a dictionary with the file names of
-        the files that contain all words of the query as the keys
-        and all Positions in that file of the words of the query as the values.  
-
-        :param db: database containing file(s)
-               query: input query
-        """
-        self.query = query
-        t = Tokenizer()
-        res = []  # list for dictionaries of search results
-        fs = []  # list for sets of names of files
-        output = {}
-        dic = self.db
-        for i in t.alph_tokenize(query):
-            #print(i)
-            if not dic.get(i.tok) in res:
-                res.append(dic.get(i.tok))
-        # create list of sets of filenames for each word
-        for f in res:
-            fs.append(set(f.keys()))
-        for r in sorted(list(set.intersection(*fs)))[offset:offset+limit]:  # get files that contain all the words of the query
-            for item in res:
-                output.setdefault(r, []).append(item[r])
-        # sort positions by line and start index
-        for el in output:
-            output[el] = our_sort(output[el])
-        return output
-
-    def search_stem(self, word, limit, offset):
-        """One word search with stemming.
-
-        :return: list of positions of the word stems/lemmas in the database
         :param word: input query word
                limit: number of files
                offset: index of the first file (starting at 1)
@@ -286,6 +268,7 @@ class SearchEngine(object):
             if st in dic:
                 for fn in dic.get(st).keys():
                     res.setdefault(fn, []).extend(dic.get(st)[fn])
+        print(res)
         keys = sorted(list(res.keys()))
         for num, k in enumerate(keys):
             if num >= offset and num < (offset + limit):
@@ -296,11 +279,11 @@ class SearchEngine(object):
         return output
 
     def search_mult_stem(self, query, limit, offset):
-        """Multiword search with stemming.
+        """Multiword search.
 
         :return: a dictionary with the file names of
-        the files that contain all stems/lemmas of the query words as the keys
-        and a generator of all Positions query words stems/lemmas in that file.  
+        the files that contain all words of the query as the keys
+        and a generator of all Positions of the words in the query in that file.  
 
         :param query: input query
                limit: number of files
