@@ -13,6 +13,8 @@ The modules deal with various tasks:
 Server works with an indexed database containing the reqired documents. Each file is tokenized (divided into alphabetical sequences) and for each token information about its position in document is saved in the db.
 To indexate the files use *db_file_indexate* method fron **f_indexator.py**:
 ```
+from f_indexator import Indexator
+
 ind = Indexator()
 ind.db_file_indexate("my_db.db", "my_file.txt")
 ```
@@ -31,6 +33,8 @@ Then, we need stem database: run **wikt_temp_dict.py**; and inflexion database: 
 
 Now we have everything for our morphological analysis and we can indexate our documents (*stem_indexate* method from **f_indexator.py**):
 ```
+from f_indexator import Indexator
+
 ind = Indexator()
 ind.stem_indexate("my_stem_db.db", "my_file")
 ```
